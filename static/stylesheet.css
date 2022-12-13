@@ -1,1 +1,82 @@
 
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none;    
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:monospace;
+    background-color:rgb(250, 247, 239);
+    color: green
+}
+
+nav{
+    background-image: url("/assets/pinkgradient.jpg");
+    height: 70px;
+    width: 100%;
+}
+
+label.logo{
+    color: antiquewhite;
+    font-size: 35px;
+    line-height: 80px;
+    padding:  0 10px;
+    font-weight: bold;
+}
+nav {
+    background: rgba(227, 29, 95, 0.826);
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: antiquewhite;
+    font-size: 15px;
+    padding: 0 5px;
+    border-radius: 2px;
+    text-transform: lowercase;
+}
+
+.active,a:hover{
+    background: rgba(227, 29, 95, 0.826);
+    transition: .15s;
+}
+
+h1{
+    padding-top: 20px;
+    margin: 10px;
+}
+
+p{
+    padding-top: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+iframe{
+    padding-top: 20px;
+    margin-left: 60px;
+}
+
+img{
+    width:300px;
+    height: 300px;
+}
+
+table{
+    padding: 20px;
+    margin-left: 35px;
+    border: 5px;
+}
